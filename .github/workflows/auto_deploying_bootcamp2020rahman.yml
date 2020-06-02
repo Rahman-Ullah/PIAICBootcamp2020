@@ -30,4 +30,5 @@ jobs:
     - name: install surge
       run: npm install --golable surge
     - name: deploying using surge
-      run: surge ./ Bootcamp2020Rahman.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ bootcamp2020rahman.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      
